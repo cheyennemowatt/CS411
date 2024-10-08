@@ -1,0 +1,27 @@
+Project Description:
+    - CodeChuckle is introducing a new diff tool: SnickerSync—why merge in silence when you can sync with a snicker? The team has already created a vanilla interface capable of syncing with the base GiggleGit packages. This project aims to get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients.
+Project Requirements:
+    Goal: Create interface that allows users to manage their Git repositories and view merge status in real-time.
+    Non-Goal: Include a real-time chat feature for team collaboration
+    Non-functional requirement 1: Performance
+        - Functional requirement: 
+            - Interface should be able to hand a lot of users at one time with any delay or lag.
+            - Allows users to switch between repositories in under 5 seconds
+    Non-functional requirement 2: Reliability
+        - Functional requirement: 
+            - Have automated backups for user data stored locally to prevent data loss.
+            - Automatically refresh merge status without having to completely reload page
+
+
+
+Agile:
+    Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+    Epic: Onboarding experience 
+    User Stories:
+        User Story 1: As a vanilla git power- user that has never seen GiggleGit before, I want to feel comfortable doing basic Git equivalent operations.
+        User Story 2: As a team lead onboarding an experienced GiggleGit user, I want to be able to onboard and assign roles using one simple page.
+        User Story 3: As a developer managing multiple repositories, I want to have an efficient way to organize and navigate between my active projects.
+            - Task: Improve repository navigation and organization.
+                - Ticket 1 (Categorization System): Implement a user- specific custom categorization system making it easier to group and organize projects by priority, team, or type. 
+                - Ticket 2 (Frequent Access Panel): Develop a quick acess section on the dashboard for frequently used repositories. It displays the user’s most frequently used or pinned repositories for fast one-click access. 
+        User Story 4: As a user I want to be able to authenticate on a new machine. This is a functional requirement because it provides a specific function the system should provide, but it does not provide the user perspective like a user story does.
