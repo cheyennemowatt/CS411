@@ -1,11 +1,15 @@
 from typing import Optional
 
-from wildlife_tracker.animal_managment.animal import Animal
+from wildlife_tracker.animal_management.animal import Animal
+from wildlife_tracker.habitat_management.habitat import Habitat
 
 class AnimalManager:
 
-    def __init__(self) -> None:
-        animals: dict[int, Animal] = {}
+    def __init__(self, animals: dict[int, Animal] = {},
+        age: Optional[int] = None, status: str = "Scheduled",
+        health_status: Optional[str] = None) -> None:
+        pass
+        
 
     def get_animal_by_id(self, animal_id: int) -> Optional[Animal]:
         pass
